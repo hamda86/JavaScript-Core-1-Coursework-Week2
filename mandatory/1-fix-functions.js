@@ -10,8 +10,8 @@
 
 */
 
-function getMood() {
-  let isHappy = true;
+function getMood(mood) {
+  let isHappy = mood;
 
   if (isHappy) {
     return "I am happy";
